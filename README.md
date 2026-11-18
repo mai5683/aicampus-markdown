@@ -107,5 +107,31 @@ markup과 markdown 모두 효과가 있습니다.
 - [https://www.python.org/](https://www.python.org/)
 - <https://www.python.org/>
 
+같은 저장소의 문서는 `상대경로`를 이용해서 접근할 수 있습니다.
+
+- [테스트문서](./dummy/test.md)
+  
+# 이미지(image)
+
+이미지는 링크 앞에 `!`만 추가하면 됩니다.  
+단, 주소의 대상이 반드시 이미지여야 합니다. (아니면 엑박이 나옵니다.)
+
+내가 가진 이미지, 남이 가진 이미지 모두 표시가 가능합니다.
+
+```
+![이미지 간단설명](이미지주소)
+```
+
+![카카오라이언](https://i.pinimg.com/originals/04/46/49/044649baf29aa8a520bd1e85be325b02.gif)
+
+깃허브는 이미지를 복사해서 붙여 넣어도 임시로 업로드해서 주소를 만들어 줍니다.
+
+<img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/c3bf8101-bfd2-4309-a276-dd12152d5cd8" />
+
+내가 가진 이미지도 표시할 수 있습니다.  
+같은 저장소에 있다면 상대경로로 표시할 수 있습니다.
+
+![카카오라이언](./dummy/lion.gif)
+
 
 
